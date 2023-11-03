@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nitika Chaudhary - Frontend Web Developer </title>
+    <link rel="icon" type="image/x-icon" href="https://miro.medium.com/max/2400/1*M-jCc9NMJIwvvt0aMbsc2g.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 821px)" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">Nitika Chaudhary</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+                <li><a href="#home" class="t-white roboto">Home</a></li>
+                <li><a href="#about" class="t-white roboto">About Me</a></li>
+                <li><a href="#skills" class="t-white roboto">Skills</a></li>
+                <li><a href="#services" class="t-white roboto">services</a></li>
+            
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bottom Navigator -->
+    <section id="bottom">
+        <div class="bottom-nav flex s-center items-center">
+            <ul class="flex s-around items-center">
+                <a href="#home">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                <a href="#about">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
+                </a>
+                <a href="#skills">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-code"></i></li>
+                </a>
+                <a href="#services">
+                    <li class="bottomo-hover flex s-center items-center">
+                        <i class="fa-solid fa-rocket"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" class="flex s-around sw-80 m-auto">
+        <div class="home-left flex items-center">
+            <div class="home-content">
+                <h6 class="poppinss">Hi, I'm</h6>
+                <h1 class="t-white"> Nitika Chaudhary</h1>
+                <h4 class="poppinss"> Data Scientist</h4>
+                <a href="#" target="_blank"><button
+                        class="btn poppins">Resume</button></a>
+                <a class="btn live poppins" id="hireme" href="https://www.linkedin.com/in/nitika-chaudhary-6546b526a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+                <!-- Here in src replace the given link with your image link -->
+                <img src="C:\Users\admin\Desktop\1.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="t-center my-2 t-white f-2">About Me</h1>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="./Images/secondary.jpg" alt="" style="width: 50%;">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1 class="t-white m-b-1 poppins">Nitika Chaudhary</h1>
+                    <p class="t-white poppins">I'm Data Scientist with a passion for turning data into actionable insights. <br>
+                        With a persuing BTECH , I specialize in data analysis, machine learning, and data-driven decision-making. My work involves solving real-world problems using data and helping businesses make informed choices</p>
+                    <a class="btn live poppins" id="hireme"
+                        href="https://www.linkedin.com/in/nitika-chaudhary-6546b526a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1 class="t-center my-2 t-white f-2">Skills</h1>
+        <div class="services-container flex s-around h-50">
+        <div class=" skills-left flex s-center items-center">
+            <img src="/Images/skills.png" alt="">
+        </div>
+
+        <div class="skills-right flex items-center">
+            <div class="skillss-container">
+                <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span
+                        class="bar-content right-skills t-white">90%</span></div>
+                <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span
+                        class="bar-content right-skills t-white">80%</span></div>
+                <div class="js bar p-relative"><span class="bar-content left t-white">JavaScript</span><span
+                        class="bar-content right-skills t-white">75%</span></div>
+                <div class="bootstrap bar p-relative"><span class="bar-content left t-white">Java</span><span
+                        class="bar-content right-skills t-white">50%</span></div>
+                <div class="reactjs bar p-relative"><span class="bar-content left t-white">Python</span><span
+                        class="bar-content right-skills t-white">30%</span></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h1 class=" t-center my-2 t-white f-2">Services</h1>
+        <div class="services-container flex s-center">
+            <div class="test-item flex f-col items-center">
+                <img src="https://www.udacity.com/blog/wp-content/uploads/2021/03/Data-Science-and-ML-Careers_Blog.jpeg" alt="">
+                <h1 class="t-white poppins">Data analysis</h1>
+                <p class="t-white poppins">Data analysis is the process of examining, cleaning, transforming, and interpreting data to discover meaningful insights, draw conclusions, and support decision-making. It involves a systematic and structured approach to uncover patterns, trends, relationships, and valuable information within datasets.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <h1 class="t-white poppins"> Predictive Modeling</h1>
+                <p class="t-white poppins"> They build predictive models to forecast future outcomes, such as sales, customer behavior, and market trends.</p>
+               
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="https://smallbizclub.com/wp-content/uploads/2020/11/bigstock-Data-Analysis-For-Business-And-.jpg" alt="">
+                <h1 class="t-white poppins">Data Visualization</h1>
+                <p class="t-white poppins"> They create visual representations of data, such as charts and graphs, to make complex data more understandable and to communicate findings effectively.</p>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="m-b-1">
+        <h1 class=" t-center my-2 t-white f-2">Contact Me</h1>
+        <div class="contact-container flex s-around items-centers">
+            <div class="form" id="contactForm">
+                <form action="" id="contactFrom">
+                    <div class="name form-div">
+                        <input type="text" name="name" id="name" class="poppins" placeholder="Enter Your Name">
+                    </div>
+                    <div class="email form-div">
+                        <input type="email" name="email" id="email" class="poppins" placeholder="Enter Your Email"
+                            required>
+                    </div>
+                    <div class="phone form-div">
+                        <input type="phone" name="phone" id="phone" class="poppins" placeholder="Enter Your Phone"
+                            required>
+                    </div>
+                    <div class="textarea form-div">
+                        <textarea name="text" id="textarea" cols="30" rows="10" class="poppins"
+                            placeholder="Enter Messages"></textarea>
+                    </div>
+                    <button type="submit" class="btn poppins" id="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <ul class="flex s-center w-80 m-auto my-2 res">
+            <li><a href="#home" class="poppinss">Home</a></li>
+            <li><a href="#about" class="poppinss">About</a></li>
+            <li><a href="#skills" class="poppinss">Skills</a></li>
+            <li><a href="#projects" class="poppinss">Projects</a></li>
+            <li><a href="#portfolio" class="poppinss">Portfolio</a></li>
+        </ul>
+        <ul class="flex s-center w-80 font-awesome ">
+            <a href="https://www.linkedin.com/in/nitika-chaudhary-6546b526a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </a>
+            <a href="https://github.com/dashboard" target="_blank">
+                <li><i class="fa-brands fa-github"></i></li>
+        
+            </a>
+
+        </ul>
+
+
+    </footer>
+
+    <div id="scroll-top" onclick="scrolltop()">
+        <span><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+
+</body>
+<script src="/script.js"></script>
+
+</html>
